@@ -4,6 +4,14 @@ Created on Thu Mar  7 22:02:10 2019
 
 @author: Blake
 """
+
+# load data if you have not already done so in steamMarket_dataCollection
+gameID = '578080';
+# open file with all names
+with open(gameID+'PriceData.pkl', "rb") as file:   # Unpickling
+   data = pickle.load(file)
+
+
 # resave old version to new_2
 data['maxMinIdxDiff'] = data['maxIdx'] - data['minIdx'];
 combo2['maxMinIdxDiff'] = combo2['maxIdx'] - combo2['minIdx'];
