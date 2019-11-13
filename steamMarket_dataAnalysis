@@ -3,6 +3,16 @@
 Created on Thu Mar  7 22:02:10 2019
 
 @author: Blake
+
+While the dataCollection program can work on all games, this analysis program cannot.
+This analysis program is specific to Rust. It will work on Rust data from the Steam Market but it will not work with other games.
+For example, a lot of the data cleaning is to catagorize specific skins for specific items in Rust. CSGO does not 
+have an eoka pistol and as such you may get errors. 
+
+I hope you will use this code to help you in analyzing your own data for your own purposes by using my methods and formats for data
+cleaning, organizing, and analysis. I do not encourage you to just copy and paste this code as 1) it only works for Rust
+and 2) it is specific to my questions.
+
 """
 import pandas as pd
 import numpy as np
