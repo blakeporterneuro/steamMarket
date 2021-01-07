@@ -5,6 +5,9 @@ Created on Thu Feb 28 22:53:32 2019
 @author: Blake Porter
 www.blakeporterneuro.com
 
+This code is made available with the CC BY-NC-SA 4.0 license 
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 This script is broken into three parts
 1) Item name collection
     • Get the name of every item on the steam market place for a given game
