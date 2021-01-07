@@ -2,7 +2,11 @@
 """
 Created on Thu Mar  7 22:02:10 2019
 
-@author: Blake
+@author: Blake Porter
+www.blakeporterneuro.com
+
+This code is made available with the CC BY-NC-SA 4.0 license 
+https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 While the dataCollection program can work on all games, this analysis program cannot.
 This analysis program is specific to Rust. It will work on Rust data from the Steam Market but it will not work with other games.
